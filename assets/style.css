@@ -44,9 +44,7 @@ body {
 }
 
 #header{
-height: 888px;
 background-color: #F6D2B8;
-width: 100vw;
 }
 
 .carousel-item img{
@@ -159,7 +157,7 @@ width: 100vw;
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 40px;
 }
 .quote__author {
 	font-family: Spectral;
@@ -278,7 +276,7 @@ input[type="submit"] {
 
 @media all and (max-width: 1000px) {
 	#header{
-		height: 463px;
+		
 		background-color: #F6D2B8;
 	}
 	#about{
@@ -355,7 +353,7 @@ input[type="submit"] {
 		text-align: center;
 	}
 	#header{
-		height: 300px;
+		
 		background-color: #F6D2B8;
 	}
 	.picture.left::before, .picture.right::before {
